@@ -1,0 +1,30 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.seachbar {
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 4%;
+    padding-bottom: 0%;
+}
+
+input[type=text],
+[type=date] {
+    width: 25%;
+    height: 3em;
+    white-space: wrap;
+    border-radius: 15px;
+}
+
+.a {
+    text-align: center;
+    background-color: papayawhip;
+    margin-top: 2%;
+    margin-left: 46%;
+    width: 10%;
+    position: relative;
+    overflow: auto;
+}
