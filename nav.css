@@ -19,3 +19,15 @@
 .naa {
     display: inline-block;
 }
+
+.videoTag {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0%;
+    z-index: -1;
+    height: max-content;
+    width: max-content;
+    object-fit: fill;
+    transform: translate( -0%, 0%);
+}

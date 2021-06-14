@@ -17,6 +17,7 @@ input[type=text],
     height: 3em;
     white-space: wrap;
     border-radius: 15px;
+    color: black;
 }
 
 .a {
@@ -27,4 +28,7 @@ input[type=text],
     width: 10%;
     position: relative;
     overflow: auto;
+    color: black;
+    height: min-content;
+    overflow: hidden;
 }

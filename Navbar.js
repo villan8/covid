@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Link,Switch, Route } from 'react-router-dom'
+import sample from './COVID19.mp4';
 import {
    BrowserRouter as Router,
  } from "react-router-dom";
@@ -35,6 +36,10 @@ return (<>
     </Switch>
   
    </Router>
+<video className='videoTag' autoPlay loop muted>
+    <source src={sample} type='video/mp4' />
+</video>
+ 
        
      
 </>
